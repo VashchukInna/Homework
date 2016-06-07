@@ -1,0 +1,100 @@
+h1 {
+    text-align: left;
+    width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translate(-250px);
+}
+
+.form {
+    width: 450px;
+    position: relative;
+    left: 50%;
+    transform: translate(-250px);
+}
+
+input[required] {
+    background-color: indianred;
+}
+
+sup {
+    color: red;
+}
+
+.input {
+    width: 450px;
+}
+
+input {
+    height: 20px;
+    border-radius: 3px;
+}
+
+.gender {
+    margin-left: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.card {
+    margin-top: -15px;
+    height: 50px;
+}
+
+.card input {
+    width: 20%;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.card-1 {
+    margin-right: 10px;
+    float: left;
+    width: 70%;
+}
+
+.cv {
+    width: 25%;
+    float: left;
+}
+
+.cv input {
+    width: 110%;
+}
+
+button {
+    position: relative;
+    float: right;
+    background-color: rgb(103, 161, 105);
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.range {
+    margin-top: -10px;
+    width: 450px;
+}
+
+.color {
+    margin-top: 10px;
+}
+
+.cv input {
+    margin-left: -1px;
+}
+
+.card-1 input {
+    margin-left: 1px;
+}
+
+
+
+
+
+
