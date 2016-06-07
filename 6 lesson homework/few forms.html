@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Few forms</title>
+	<meta charset="utf-8">
+	<body bgcolor="#edffff">
+<style>
+   .b1 {
+    background: white; 
+</style>
+</head>
+<body>
+<form style="width: 500px" action="check_food.php" method="POST">
+		<h2>Документ с несколькими формами</h2>
+		<p><font size="4"><strong>Какое блюдо будете заказывать?</strong></font></p>
+		
+	<table cellspacing="0" width="50%">
+	<tr>
+		<td bgcolor="#cceef0"><div><label for="Name">Пицца</label></div></td>
+		<td bgcolor="#cceef0"><div style="text-align: right;">
+		<input type="checkbox"></td></div></td>
+	</tr>
+	<tr>
+		<td><div><label for="Name">Хот-дог</label></div></td>
+		<td><div style="text-align: right;">
+		<input type="checkbox"></td></div></td>
+	</tr>
+	<tr>
+		<td bgcolor="#cceef0"><div><label for="Name">Гамбургер</label></div></td>
+		<td bgcolor="#cceef0"><div style="text-align: right;">
+		<input type="checkbox"></td></div></td>
+	</tr>
+	<tr>
+		<td><div><label for="Name">Попкорн</label></div></td>
+		<td><div style="text-align: right;">
+		<input type="checkbox"></td></div></td>
+	</tr>
+	<tr>
+		<td bgcolor="#cceef0"><div><label for="Name">Чупа-чупс</label></div></td>
+		<td bgcolor="#cceef0"><div style="text-align: right;">
+		<input type="checkbox"></td></div></td>
+	</tr>
+</table>
+	<button type="submit" class="b1">Отправить</button>
+	<button type="reset" class="b1">Сбросить</button>
+</form>
+<hr noshade size="3" color="#c1c5c8">
+ 
+<form action="check_adress.php" method="POST"> 
+	<p><font size="4"><strong>Куда доставить заказ?</strong></font></p>
+	<table cellspacing="0">
+	<tr>
+		<td><label for="Name">Имя:<sup style="color:red">*</sup></label></td>
+		<td><input type="text" size="12" name='Name' required pattern="" /></td>
+	</tr>
+	<tr>
+		<td><label for="Surname">Фамилия:</label></td>
+		<td><input type="text" size="25" name='Surname'/></td>
+	</tr>
+	<tr>
+		<td><label for="Email" style='width: 90px;'>eMail:<sup style="color:red">*</sup></label></td>
+		<td><input type="text" size="17" name='Email' required pattern=""/>
+		<input type="email" size="10" value="@mail.ru"/></td>
+	</tr>
+	<tr>
+		<td><label for="Street">Улица:<sup style="color:red">*</sup></label></td>
+		<td><input type="text"  value="Кирова" name='Street' required pattern=""/></td>
+	</tr>
+	<tr>
+		<td><label for="City">Город:<sup style="color:red">*</sup></label></td>
+		<td><input type="text" size="15" value="Муроманск" name='City' required pattern=""/></td>
+	</tr>
+</table>
+	<button type="submit" class="b1">Отправить</button>
+	<button type="reset" class="b1">Сбросить</button>
+</form>
+<hr noshade size="3" color="#c1c5c8">
+ 
+ <form action="check_payment.php" method="POST"> 
+	<p><font size="4"><strong>Как будете расплачиваться?</strong></font></p>
+<table border="1" cellspacing="0" width="18%" bordercolor="#d6f0ef">
+	<tr>
+		<td><input type="radio" name="radio" value="radio1"><label for="">Наличными</label></td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="radio" value="radio2"><label for="">Чеком</label></td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="radio" value="radio3"><label for="">Дебитной карткой</label></td>
+	</tr>
+	<tr>
+		<td rowspan="7" ><br>
+	<a>Кредитной карточкой</a><br>
+	<table align="center">
+		<td><input type="radio" name="radio4" value="rad1"><label for="Name">Master Card</label><br>
+		<input type="radio" name="radio4" value="rad2"><label for="Name">Visa</label><br>
+		<input type="radio" name="radio4" value="rad3"><label for="Name">Discovery</label><br>
+		<input type="radio" name="radio4" value="rad4"><label for="Name">American Express</label></td>
+	</table>
+	</tr>
+</table>
+	<button type="submit" class="b1">Отправить</button>
+	<button type="reset" class="b1">Сбросить</button>
+ 
+</body>
+</html>

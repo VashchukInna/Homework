@@ -1,0 +1,23 @@
+Домашнее задание по HTML:
+
+1. Создаем страницу index.html (HTMl5.0) и у нее должна быть такая структура:
+
+    |-- Doctype html
+    |-- html
+        |-- head
+            |-- title
+            |-- meta (with charset and content type)
+        |-- body
+            |-- div => p => "Hi there! Welcome to my page!) My name is <your_name>"
+            |-- div
+                |-- h1 => "Info about me"
+                |-- p => "<Some text about me (where I studied, name, age, where I work)>""
+                |-- h1 => "Why I wan't to be a Frontend Developer"
+                |-- p => "<you text why ...>"
+                |-- h1 => "Why I think that frontend is COOL?)"
+                |-- p => "<Because and your text>"
+            |-- div
+                |-- h2 => "Create by @kl2karpenko (here you can add your nickname)"
+                |-- h3 => "Have a good day!"
+
+    где div, p, h1, h2, h3, title, meta - это теги HTML все остальное текст, где текст <тут> вы меняете на свой по усмотрению
