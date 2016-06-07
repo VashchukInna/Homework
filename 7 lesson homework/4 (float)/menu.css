@@ -1,0 +1,36 @@
+ul.menu {
+	list-style: none;
+}
+
+ul.menu li {
+	display: inline-block;
+}
+
+ul.menu li a {
+	font-family: Impact; 
+	text-decoration: none;
+	color: white; 
+	padding: 10px 10px 10px 10px;
+}
+
+ul.menu li a:hover {
+	padding: 10px 10px 10px 10px;
+	background: #eeeeee;
+	color: #a0a0a0;
+}
+
+.menu {
+	width: 900px;
+    background: #a64dff;
+    padding:10px; /* Поля вокруг текста */
+	text-align: left; 
+	padding-left: 80px;
+	float:left;
+	margin:0px;
+}
+
+#b {
+	width: 100%;
+	height:40px;
+	background: #a64dff;
+}

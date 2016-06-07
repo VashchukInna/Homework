@@ -1,0 +1,31 @@
+ul.menu {
+	list-style: none;
+}
+
+ul.menu li {
+	display: inline-block;
+}
+
+ul.menu li a {
+	font-family: Impact; 
+	text-decoration: none;
+	background: #a64dff;
+	color: white; 
+	padding: 8px 10px 8px 10px;
+}
+
+ul.menu li a:hover {
+	padding: 10px 10px 10px 10px;
+	background: #eeeeee;
+	color: #a0a0a0;
+}
+
+.menu {
+    float: center;
+    background: #a64dff;
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина блока */
+	text-align: left; 
+	padding-left: 80px;
+	}
+

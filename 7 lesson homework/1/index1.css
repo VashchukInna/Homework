@@ -1,0 +1,72 @@
+h1 {
+	color: orange;
+	text-align: right;
+	font-weight:bold;
+}
+
+p:first-letter {
+	color:red;
+	font-size:30px;
+	font-weight:bold;
+}
+
+p {
+	font-size:19px;
+}
+
+div {
+	font-size:19px;
+}
+
+em {
+	color:white;
+	background-color:green;
+}
+
+#allotment h2{
+	color:orange;
+}
+
+#warehouse h2 {
+	color:blue;
+}
+
+ul>li:first-line {
+	font-weight:bold;
+}
+
+ol.vegetables-list {
+	color:red;
+}
+
+#allotment ol.fruits-list {
+	color:grey;
+}
+
+#warehouse ol.fruits-list {
+	color:green;
+}
+
+table.students-table {
+	font-weight:bold;
+	text-align:center;
+	font-size:19px;
+}
+
+table.students-table tbody>tr>td:first-child {
+	color:orange;
+	text-align:left;
+}
+
+table.students-table tbody>tr>td:nth-child(even) {
+	color:white;
+	background-color:green;
+}
+
+table.students-table tbody>tr>td:nth-child(3) {
+	color:white;
+	background-color:green;
+}
+
+
+
